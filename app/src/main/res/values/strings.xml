@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hisab Kitab</string>
+    <string name="bill_amount">Bill Amount</string>
+    <string name="billtext">Enter the Bill Amount in $</string>
+    <string name="service_question">How is your experince ?</string>
+    <string name="amzingid">Amazing (20%)</string>
+    <string name="goodid">Good (15%)</string>
+    <string name="okid">OK (10%)</string>
+    <string name="swichtip">Give Tip?</string>
+    <string name="calculateid">Calculate</string>
+    <string name="tip_result">Tip Amount</string>
+</resources>
