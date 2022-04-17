@@ -21,7 +21,7 @@
         android:id="@+id/billtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter the Bill Amount in $"
+        android:text="@string/billtext"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bill_amount" />
@@ -84,14 +84,15 @@
         android:layout_height="wrap_content"
         android:text="Calculate"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/switchtip" />
 
     <TextView
-        android:id="@+id/tip_result"
+        android:id="@+id/tip_final"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tip Amount"
+        android:text="@string/tip_res"
+        tools:text="Tip Amount: $10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/calculateid" />
 
